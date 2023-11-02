@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Сайт-визитка</title>
+</head>
+<body>
+<div class="header">
+    <h1 class="header__title">Визитка</h1>
+</div>
+<div class="container">
+    <div class="info container_block" id="info">
+        <h2 class="info__title">О себе</h2>
+        <p class="circle__img"><img src="imgs/dora.jpg"/></p>
+        <p class="info__full__name">Попов Константин Дмитриевич</p>
+        <p class="info__full">18 лет</p>
+        <p class="info__full">Начинающий веб-разработчик</p>
+        <p class="info__full">Фанат Доры</p>
+        <p class="info__full">Обучаюсь в МТУСИ, Москва</p>
+        <p>
+            <img src="imgs/tg.png" width="50" height="50"/>
+            <a href="https://t.me/yasnocl0wn" class="info__link">@yasnocl0wn</a>
+        </p>
+        <p>
+            <img src="imgs/github.png" width="50" height="50"/>
+            <a href="https://github.com/yasn0clown" class="info__link">yasn0clown</a>
+        </p>
+    </div>
+    <div class="container_block portfolio">
+        <h2 class="info__title">Портфолио</h2>
+        <ul class="portfolio_list">
+            <li class="lab">
+                <button class="lab_btn" id="1">Лабораторная работа по ВвИТ №1</button>
+                <div class="hide laba_block" id="lab1">
+                    <img src="imgs/laba1.png" width="100%" height="500"/>
+                </div>
+            </li>
+            <li class="lab">
+                <button class="lab_btn" id="2">Лабораторная работа по ВвИТ №2</button>
+                <div class="hide laba_block" id="lab2">
+                    <img src="imgs/laba2.png" width="100%" height="500"/>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
